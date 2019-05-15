@@ -71,4 +71,32 @@ public class Company {
     public String getIndustry(){
         return this.industry;
     }
+
+    public void setSym(String sym){
+        this.symbol = sym;
+    }
+
+    public void setName(String nme){
+        this.name = nme;
+    }
+
+    public void setHeadqtrCity(String hdqr){
+        this.headquartersCity = hdqr;
+    }
+
+    public void setHeadqtrSt(String hdqrSC){
+        this.headquartersStateOrCountry = hdqrSC;
+    }
+
+    public void setEmployees(int empl){
+        this.numberOfEmployees = empl;
+    }
+
+    public void setSector(String sec){
+        this.sector = sec;
+    }
+
+    public void setIndustry(String ind){
+        this.industry = ind;
+    }
 }
