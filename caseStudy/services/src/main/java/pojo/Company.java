@@ -29,7 +29,7 @@ public class Company {
     private String name;
     private String headquartersCity;
     private String headquartersStateOrCountry;
-    private String numberOfEmployees;
+    private int numberOfEmployees;
     private String sector;
     private String industry;
 
