@@ -8,6 +8,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.IOException;
 
 /**
  * Copyright 2018 Goldman Sachs.
@@ -40,9 +41,11 @@ public class Example4Resource {
      */
     @Path("sample")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getSampleEvent() {
+    public Response getSampleEvent() throws IOException {
 
-        Event event = null;
-        return Response.ok().entity(event).build();
+        Event event = utility.FileHelper.readSingleEvent("single-event.json");
+        return Response.status(Response.Status.OK).entity(event).build();
+
+
     }
 }

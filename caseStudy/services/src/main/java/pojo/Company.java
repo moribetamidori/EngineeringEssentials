@@ -25,6 +25,50 @@ public class Company {
     // TODO - Think back to your modelling session
     // Define the attributes of a Company based on the
     // provided data in resources/data
+    private String symbol;
+    private String name;
+    private String headquartersCity;
+    private String headquartersStateOrCountry;
+    private String numberOfEmployees;
+    private String sector;
+    private String industry;
+
+    public Company (String sym, String nme, String hdqr, String hdqrSC, int empl, String sec, String ind) {
+        this.symbol = sym;
+        this.name = nme;
+        this.headquartersCity = hdqr;
+        this.headquartersStateOrCountry = hdqrSC;
+        this.numberOfEmployees = empl;
+        this.sector = sec;
+        this.industry = ind;
+    }
 
     // TODO - add getter and setter methods for your attributes
+    public String getSym(){
+        return this.symbol;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public String getHeadqtrCity(){
+        return this.headquartersCity;
+    }
+
+    public String getHeadqtrSt(){
+        return this.headquartersStateOrCountry;
+    }
+
+    public int getEmployees(){
+        return this.numberOfEmployees;
+    }
+
+    public String getSector(){
+        return this.sector;
+    }
+
+    public String getIndustry(){
+        return this.industry;
+    }
 }
