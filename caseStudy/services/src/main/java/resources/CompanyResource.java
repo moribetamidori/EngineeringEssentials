@@ -16,22 +16,34 @@
 
 package resources;
 
-//import InputValidator;
-//
+import pojo.Company;
+
 //// TODO - add your @Path here
 //@Path("")
 public class CompanyResource {
-//
-//    // TODO - Add a @GET resource to get company data
+
+    // TODO - Add a @GET resource to get company data
 //    @GET
 //    @Path("")
-//    @Produces()
-//    String [] info = validateComp(ticker);
-//    if (info[0] != null){
-//        return info;
-//    }
-//    return null;
-//    // Your service should return data for a given stock ticker
+//    @Produces(MediaType.APPLICATION_JSON)
+    public static Company returnCompany(String ticker){
+        Company info = resources.InputValidator.validateComp(ticker);
+//        System.out.println(info);
+//        if(!(info.equals(null))){
+//            System.out.println(info.getName());
+//            System.out.println(info.getIndustry());
+//        }
+
+//        System.out.println(info);
+        return info;
+    }
+    // Your service should return data for a given stock ticker
+
+    public static void main(String[] args) {
+        resources.InputValidator.validateFile("src/main/resources/data/companyInfo.json");
+        returnCompany("AAPL");
+//        returnCompany("EA");
+    }
 
 
 }

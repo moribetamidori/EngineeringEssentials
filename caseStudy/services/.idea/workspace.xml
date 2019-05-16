@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca763db-7d37-4872-b6b0-bf6abff10287" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Magic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/CompanyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/CompanyResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/StockResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/StockResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utility/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojo/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/Stock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/resources/CompanyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/CompanyResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/InputValidator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/InputValidator$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/resources/InputValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/InputValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/StockResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/StockResource.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/CompanyResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="249">
+              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -35,16 +40,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/Magic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/StockResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="176" column="31" lean-forward="true" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#987#1002#0" expanded="true" />
+                <marker date="1557984624882" expanded="true" signature="1755:1792" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Stock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utility/InputValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="1044">
+              <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
               <folding>
                 <element signature="e#0#3717#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3790#3791#0" expanded="true" />
-                <element signature="e#3875#3876#0" expanded="true" />
-                <marker date="1557966073943" expanded="true" signature="1737:1792" ph="..." />
+                <marker date="1557975027187" expanded="true" signature="1888:1943" ph="..." />
               </folding>
             </state>
           </provider>
@@ -53,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="74">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -63,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/target/classes/pojo/Company.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding>
                 <element signature="e#0#1811#0" expanded="true" />
               </folding>
@@ -91,9 +141,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>headqtrSt</find>
+      <find>Syste</find>
+      <find>/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,8 +163,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/resources/CompanyResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Stock.java" />
         <option value="$PROJECT_DIR$/src/main/java/utility/InputValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/StockResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/CompanyResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/Magic.java" />
       </list>
     </option>
   </component>
@@ -154,14 +216,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
@@ -205,6 +259,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
@@ -262,8 +332,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="resources.InputValidator" />
+    <configuration name="Magic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resources.Magic" />
       <module name="stock-visualization-app" />
       <extension name="coverage">
         <pattern>
@@ -308,7 +378,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InputValidator" />
+        <item itemvalue="Application.Magic" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +399,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12358643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +421,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.06623586" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.16801292" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -399,40 +469,79 @@
     <entry file="file://$PROJECT_DIR$/target/classes/pojo/Company.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="e#0#1811#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/InputValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#3717#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1557975027187" expanded="true" signature="1888:1943" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/StockResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="176" column="31" lean-forward="true" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#987#1002#0" expanded="true" />
+            <marker date="1557984624882" expanded="true" signature="1755:1792" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/CompanyResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="249">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Company.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/Magic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/InputValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="201">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
-            <element signature="e#0#3717#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3875#3876#0" expanded="true" />
-            <marker date="1557966073943" expanded="true" signature="1737:1792" ph="..." />
           </folding>
         </state>
       </provider>

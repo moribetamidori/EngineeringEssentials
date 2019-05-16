@@ -19,6 +19,7 @@ package resources;
 
 //import java.util.*;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -30,11 +31,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import pojo.Company;
+import pojo.Stock;
 
 
 public class InputValidator {
 
-    public static HashMap<String, Object> companyMap = new HashMap<>();
+    public static HashMap<String, Company> companyMap = new HashMap<>();
+    public static HashMap<String, Stock> stockMap = new HashMap<>();
 
     private static final ObjectMapper mapper = new ObjectMapper();
     // TODO - write a method that will validate your JSON input files
@@ -62,11 +65,22 @@ public class InputValidator {
                     companyMap.put(comp.getSym(), comp);
                 }
 
-                for (String ticker: companyMap.keySet()){
-                    String compInfo = companyMap.get(ticker).toString();
-                    System.out.println(ticker + " " + compInfo);
-                }
+//                for (String ticker: companyMap.keySet()){
+//                    String compInfo = companyMap.get(ticker).toString();
+//                    System.out.println(ticker + " " + compInfo);
+//                }
 
+            }
+
+            if(filename.equals("src/main/resources/data/historicalStockData.json")){
+                JSONArray stockList = (JSONArray) obj;
+
+                for(Object ob:stockList){
+                    String obStr = mapper.writeValueAsString(ob);
+//                    mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+                    Stock stk = mapper.readValue(obStr, new TypeReference<Stock>() {});
+                    stockMap.put(stk.getName(), stk);
+                }
             }
 
 //
@@ -102,19 +116,23 @@ public class InputValidator {
     }
 
     // TODO - write a method that will validate the inputs to the Company Resource
-//    public static String[] validateComp(String ticker){
-//        if(companyMap.containsKey(ticker)){
-//            return [((Company)companyMap.get(ticker)).getName(), ((Company)companyMap.get(ticker)).getIndustry();
-//        }
-//        return [null, null];
-//    }
+    public static Company validateComp(String ticker){
+        if(companyMap.containsKey(ticker)){
+            return (Company) companyMap.get(ticker);
+        }
+        return null;
+    }
 
     // TODO - write a method that will validate the inputs to the Stock Resource
-    public static void validateStock(){
-
+    public static Stock validateStock(String ticker){
+        if(stockMap.containsKey(ticker)){
+//            System.out.println(stockMap.get(ticker).getClass().getSimpleName());
+            return (Stock) stockMap.get(ticker);
+        }
+        return null;
     }
 
     public static void main(String[] args) {
-        validateFile("src/main/resources/data/companyInfo.json"); //filePath);
+        validateFile("src/main/resources/data/historicalStockData.json"); //filePath);
     }
 }
