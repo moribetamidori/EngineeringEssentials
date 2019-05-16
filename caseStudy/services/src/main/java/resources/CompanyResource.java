@@ -16,10 +16,22 @@
 
 package resources;
 
-// TODO - add your @Path here
+//import InputValidator;
+//
+//// TODO - add your @Path here
+//@Path("")
 public class CompanyResource {
+//
+//    // TODO - Add a @GET resource to get company data
+//    @GET
+//    @Path("")
+//    @Produces()
+//    String [] info = validateComp(ticker);
+//    if (info[0] != null){
+//        return info;
+//    }
+//    return null;
+//    // Your service should return data for a given stock ticker
 
-    // TODO - Add a @GET resource to get company data
-    // Your service should return data for a given stock ticker
 
 }
